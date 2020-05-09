@@ -1,0 +1,18 @@
+div.header,div.main{
+	margin: auto;
+	margin-left: 25%;
+}
+body{
+	background: rgba(10,50,200,0.3);
+}
+button,input,select,textarea{
+	padding: 8px 14px;
+	border-radius: 5px;
+	width: 300px;
+}
+h1,p,label{
+	color: white;
+}
+hr{
+	padding: 12px 16px;
+}
