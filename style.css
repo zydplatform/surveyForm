@@ -1,6 +1,7 @@
 div.header,div.main{
 	margin: auto;
 	margin-left: 25%;
+	font-size: larger;
 }
 body{
 	background: rgba(10,50,200,0.3);
