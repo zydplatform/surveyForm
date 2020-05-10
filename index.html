@@ -1,45 +1,99 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Survey Form</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div class="header">
-		<h1 id="title">Survey Form</h1>
-		<p id="description">Please Sign Up to Continue</p>
-	</div>
-	<hr>
-	<div class="main">
-		<form id="survey-form">
-			<label id="name-label">Name</label><br>
-			<input type="text" name="name" id="name" placeholder="Please enter name" width="100" required><br>
-			<label id="email-label">Email</label><br>
-			<input type="email" name="email" id="email" placeholder="Please enter email" width="100" required><br>
-			<label id="number-label">Age</label><br>
-			<input type="number" name="number" id="number" min="0" max="100" placeholder="Please enter number" width="100" required><br>
-			<label>What's your work experience ?</label><br>
-			<select id="dropdown" width="100"><option>select your choice</option><option>less than 1 year</option><option>2 years</option><option>above 2 years</option></select><br>
-			<p>What's your specific career ?</p>
-			<input type="radio" name="Category" value="value1"><label>Teacher</label><br>
-			<input type="radio" name="Category" value="value2"><label>Lawyer</label><br>
-			<input type="radio" name="Category" value="value3"><label>Journalist</label><br>
-			<input type="radio" name="Category" value="value4"><label>Comedian</label>
-			<p>Which skills do you have ?</p>
-			<input type="checkbox" name="Category" value="value5"><label>Good communication</label><br>
-			<input type="checkbox" name="Category" value="value6"><label>Fluent English</label><br>
-			<input type="checkbox" name="Category" value="value7"><label>Computer genius</label><br>
-			<input type="checkbox" name="Category" value="value8"><label>Politican</label><br>
-			<input type="checkbox" name="Category" value="value9"><label>Public Speech</label><br>
-			<input type="checkbox" name="Category" value="value10"><label>Flexible</label><br>
-			<input type="checkbox" name="Category" value="value11"><label>Microsoft </label><br>
-			<input type="checkbox" name="Category" value="value12"><label>Programming</label><br>
-			<p>Additional Comments</p>
-			<textarea></textarea><br>
-			<button id="submit">Submit</button>
-
-		</form>
-	</div>
-	<script type="text/javascript" src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-</body>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Please Sign Up to Continue</p>
+    </div>
+    <hr />
+    <div class="main">
+      <form id="survey-form">
+        <label id="name-label">Name</label><br />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Please enter name"
+          width="100"
+          required
+        /><br />
+        <label id="email-label">Email</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Please enter email"
+          width="100"
+          required
+        /><br />
+        <label id="number-label">Age</label><br />
+        <input
+          type="number"
+          name="number"
+          id="number"
+          min="0"
+          max="100"
+          placeholder="Please enter number"
+          width="100"
+          required
+        /><br />
+        <label>What's your work experience ?</label><br />
+        <select id="dropdown"
+          ><option>select your choice</option
+          ><option>less than 1 year</option
+          ><option>2 years</option
+          ><option>above 2 years</option></select
+        ><br />
+        <p>What's your specific career ?</p>
+        <input type="radio" name="Category" value="value1" /><label
+          >Teacher</label
+        ><br />
+        <input type="radio" name="Category" value="value2" /><label
+          >Lawyer</label
+        ><br />
+        <input type="radio" name="Category" value="value3" /><label
+          >Journalist</label
+        ><br />
+        <input type="radio" name="Category" value="value4" /><label
+          >Comedian</label
+        >
+        <p>Which skills do you have ?</p>
+        <input type="checkbox" name="Category" value="value5" /><label
+          >Good communication</label
+        ><br />
+        <input type="checkbox" name="Category" value="value6" /><label
+          >Fluent English</label
+        ><br />
+        <input type="checkbox" name="Category" value="value7" /><label
+          >Computer genius</label
+        ><br />
+        <input type="checkbox" name="Category" value="value8" /><label
+          >Politican</label
+        ><br />
+        <input type="checkbox" name="Category" value="value9" /><label
+          >Public Speech</label
+        ><br />
+        <input type="checkbox" name="Category" value="value10" /><label
+          >Flexible</label
+        ><br />
+        <input type="checkbox" name="Category" value="value11" /><label
+          >Microsoft </label
+        ><br />
+        <input type="checkbox" name="Category" value="value12" /><label
+          >Programming</label
+        ><br />
+        <p>Additional Comments</p>
+        <textarea></textarea><br />
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+    <script
+      type="text/javascript"
+      src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+    ></script>
+  </body>
 </html>

@@ -1,19 +1,54 @@
-div.header,div.main{
-	margin: auto;
-	margin-left: 25%;
-	font-size: larger;
+#survey-form {
+  background-color: rgb(24, 24, 61);
+  padding: 2rem 10rem;
 }
-body{
-	background: rgba(10,50,200,0.3);
+
+#submit {
+  margin: 1rem 0;
+  width: 82%;
+  background-color: chartreuse;
+  border-width: 0.01rem;
+  color: white;
 }
-button,input,select,textarea{
-	padding: 8px 14px;
-	border-radius: 5px;
-	width: 300px;
+
+#submit:hover {
+  font-weight: 900;
+  font-size: larger;
+  background-color: green;
 }
-h1,p,label{
-	color: white;
+
+#survey-form input{
+	margin: 1rem 0
 }
-hr{
-	padding: 12px 16px;
+
+#dropdown{
+	width: 27.5rem;
+	margin: 1rem 0;
+}
+
+div.header,
+div.main {
+  margin: auto;
+  font-size: larger;
+}
+body {
+  background: rgba(10, 50, 200, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+button,
+input,
+select,
+textarea {
+  padding: 8px 14px;
+  border-radius: 5px;
+  width: 300px;
+}
+h1,
+p,
+label {
+  color: white;
+}
+hr {
+  padding: 12px 16px;
 }
